@@ -32,8 +32,8 @@ const Services = () => {
         </Typography>
         </StyledPaper>
 
-        <StyledPaper elevation={5} sx={{backgroundColor: '#282f38'}}>
-        <Typography variant="subtitle1" align="center" sx={{ padding: '10px',fontWeight:'bold', color:"#ffff" }}>
+        <StyledPaper elevation={5} sx={{backgroundColor: '#ffffff',opacity:"0.3"}}>
+        <Typography variant="subtitle1" align="center" sx={{ padding: '10px',fontWeight:'bold', color:"#0000" }}>
             Easy Returns
         </Typography>
         <Typography variant="subtitle1" align="center" sx={{ padding: '10px',color:"#f5f5f4"}}>
@@ -69,7 +69,6 @@ display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
-// background-color: lightblue;
 
 
 @media (max-width: 768px) {
