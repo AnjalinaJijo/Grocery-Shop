@@ -32,8 +32,8 @@ const Services = () => {
         </Typography>
         </StyledPaper>
 
-        <StyledPaper elevation={5} sx={{backgroundColor: '#ffffff',opacity:"0.1"}}>
-        <Typography variant="subtitle1" align="center" sx={{ padding: '10px',fontWeight:'bold', color:"#0000" }}>
+        <StyledPaper elevation={5} sx={{backgroundColor: '#ffffff',opacity:"0.3"}}>
+        <Typography variant="subtitle1" align="center" sx={{ padding: '10px',fontWeight:'bold', color:"#0000",zIndex:"5", }}>
             Easy Returns
         </Typography>
         <Typography variant="subtitle1" align="center" sx={{ padding: '10px',color:"#f5f5f4"}}>
