@@ -54,7 +54,7 @@ gap:4vw;
 flex-wrap:wrap;
 justify-content:center;
 align-items:center;
-background-color:#C7E596;
+background-color:#D7ECB5;
 
 @media (max-width: 768px) {
     flex-direction:column;
