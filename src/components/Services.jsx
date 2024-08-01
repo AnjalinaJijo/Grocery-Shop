@@ -5,29 +5,29 @@ import { Paper, Typography, Button } from '@mui/material';
 const Services = () => {
   return (
       <Container>
-        <StyledPaper elevation={5} sx={{backgroundColor: '#282f38',height:'50px'}}>
-        <Typography variant="subtitle1" align="center" sx={{ padding: '16px',fontWeight:'bold',color:"#ffff" }}>
+        <StyledPaper elevation={5} sx={{backgroundColor:  'rgba(256,256,256,0.5)'}}>
+        <Typography variant="subtitle1" align="center" sx={{ padding: '16px',fontWeight:'bold',color:"black",zIndex:5, }}>
                Online Booking
         </Typography>
-        <Typography variant="subtitle1" align="center" sx={{ padding: '10px',color:"#f5f5f4"}}>
+        <Typography variant="subtitle1" align="center" sx={{ padding: '10px',color:"#020617"}}>
             Above $20 only
         </Typography>
         </StyledPaper>
 
-        <StyledPaper elevation={5} sx={{backgroundColor: '#282f38'}}>
-        <Typography variant="subtitle1" align="center" sx={{ padding: '16px',fontWeight:'bold',color:"#ffff" }}>
+        <StyledPaper elevation={5} sx={{backgroundColor:  'rgba(256,256,256,0.5)'}}>
+        <Typography variant="subtitle1" align="center" sx={{ padding: '16px',fontWeight:'bold',color:"black",zIndex:5, }}>
                 Certified Organic
         </Typography>
-        <Typography variant="subtitle1" align="center" sx={{ padding: '10px',color:"#f5f5f4"}}>
+        <Typography variant="subtitle1" align="center" sx={{ padding: '10px',color:"#020617"}}>
         100% Guarantee
         </Typography>
         </StyledPaper>
 
-        <StyledPaper elevation={5} sx={{backgroundColor: '#282f38'}}>
-        <Typography variant="subtitle1" align="center" sx={{ padding: '16px',fontWeight:'bold', color:"#ffff" }}>
+        <StyledPaper elevation={5} sx={{backgroundColor:  'rgba(256,256,256,0.5)'}}>
+        <Typography variant="subtitle1" align="center" sx={{ padding: '16px',fontWeight:'bold', color:"black",zIndex:5, }}>
                 Huge Savings
         </Typography>
-        <Typography variant="subtitle1" align="center" sx={{ padding: '10px',color:"#f5f5f4"}}>
+        <Typography variant="subtitle1" align="center" sx={{ padding: '10px',color:"#020617"}}>
         At Lowest Price
         </Typography>
         </StyledPaper>
@@ -46,9 +46,9 @@ const Services = () => {
   )
 }
 const Container = styled.div`
-padding-top:10vh;
-padding-bottom:10vh;
-height:300px;
+padding-top:10px;
+padding-bottom:10px;
+height:350px;
 display:flex;
 gap:4vw;
 flex-wrap:wrap;
