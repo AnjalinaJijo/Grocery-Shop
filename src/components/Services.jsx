@@ -46,12 +46,13 @@ const Services = () => {
   )
 }
 const Container = styled.div`
-padding-top:10px;
-padding-bottom:10px;
-height:350px;
+margin-top:70px;
+margin-bottom:70px;
+padding-top:40px;
+padding-bottom:40px;
 display:flex;
 gap:4vw;
-flex-wrap:wrap;
+// flex-wrap:wrap;
 justify-content:center;
 align-items:center;
 background-color:#D7ECB5;
@@ -63,12 +64,11 @@ background-color:#D7ECB5;
 `
 const StyledPaper = styled(Paper)`
 width:18vw;
-min-height:40vh;
+min-height:30vh;
 display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
-
 
 @media (max-width: 768px) {
     height:auto;
